@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-cinzel: 'Cinzel', serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #07090e;
+  color: #e2e8f0;
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+h1, h2, h3, h4, .font-rpg {
+  font-family: var(--font-cinzel);
+}
+
+/* Glassmorphism RPG Card */
+.rpg-glass {
+  background: rgba(13, 17, 23, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.rpg-glass-gold {
+  background: linear-gradient(135deg, rgba(26, 20, 10, 0.9), rgba(15, 12, 5, 0.95));
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.15);
+}
+
+.rpg-glass-dark {
+  background: rgba(8, 11, 18, 0.92);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Glowing Border Utilities */
+.glow-gold {
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.4);
+}
+
+.glow-blue {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+}
+
+.glow-purple {
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+}
+
+.glow-red {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 15, 25, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.4);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.7);
+}
+
+/* Slot Border Gradients */
+.slot-common {
+  border-color: rgba(156, 163, 175, 0.4);
+}
+.slot-uncommon {
+  border-color: rgba(34, 197, 94, 0.6);
+  box-shadow: inset 0 0 10px rgba(34, 197, 94, 0.15);
+}
+.slot-rare {
+  border-color: rgba(59, 130, 246, 0.7);
+  box-shadow: inset 0 0 12px rgba(59, 130, 246, 0.2);
+}
+.slot-epic {
+  border-color: rgba(168, 85, 247, 0.8);
+  box-shadow: inset 0 0 15px rgba(168, 85, 247, 0.25);
+}
+.slot-legendary {
+  border-color: rgba(245, 158, 11, 0.9);
+  box-shadow: inset 0 0 18px rgba(245, 158, 11, 0.35);
+  animation: pulseGold 2s infinite ease-in-out;
+}
+
+@keyframes pulseGold {
+  0%, 100% {
+    box-shadow: inset 0 0 15px rgba(245, 158, 11, 0.3), 0 0 10px rgba(245, 158, 11, 0.3);
+  }
+  50% {
+    box-shadow: inset 0 0 25px rgba(245, 158, 11, 0.6), 0 0 20px rgba(245, 158, 11, 0.5);
+  }
+}
+
+@keyframes floatAnim {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float {
+  animation: floatAnim 3s ease-in-out infinite;
+}

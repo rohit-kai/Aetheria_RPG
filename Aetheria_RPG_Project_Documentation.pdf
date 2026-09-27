@@ -1,0 +1,225 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R >> >> >>
+endobj
+6 0 obj
+<< /Length 6264 >>
+stream
+1 w 0.08 0.12 0.22 rg 0.00 770.00 612.00 22.00 re f
+1 w 0.95 0.62 0.08 rg 0.00 766.00 612.00 4.00 re f
+1.5 w 0.06 0.09 0.16 rg 0.85 0.65 0.13 RG 50.00 700.00 512.00 55.00 re B
+BT /F2 18 Tf 0.98 0.85 0.35 rg 65.00 732.00 Td (AETHERIA RPG - PROJECT DOCUMENTATION) Tj ET
+BT /F1 10 Tf 0.75 0.82 0.92 rg 65.00 712.00 Td (Browser-Based Fantasy Role-Playing Game Engine | Tech Stack & System Architecture) Tj ET
+0.5 w 0.92 0.94 0.97 rg 0.80 0.85 0.90 RG 50.00 676.00 512.00 24.00 re B
+1 w 0.85 0.55 0.05 rg 50.00 676.00 4.00 24.00 re f
+BT /F2 12 Tf 0.10 0.18 0.32 rg 62.00 682.00 Td (1. Executive Summary & Project Overview) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 645.00 Td (Aetheria RPG is a modern, responsive, browser-based Role-Playing Game \(RPG\) engineered with React 19,) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 632.00 Td (TypeScript, and Vite. Designed as a comprehensive 2-Phase internship project, it delivers a rich,) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 619.00 Td (immersive fantasy gameplay experience featuring grid-based player exploration, interactive world) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 606.00 Td (entities, character class customization, an advanced inventory paperdoll system, real-time NPC) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 593.00 Td (dialogues, merchant trading, dynamic quest tracking, procedural Web Audio API sound synthesis, and) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 580.00 Td (automated persistence.) Tj ET
+0.5 w 0.92 0.94 0.97 rg 0.80 0.85 0.90 RG 50.00 559.00 512.00 24.00 re B
+1 w 0.85 0.55 0.05 rg 50.00 559.00 4.00 24.00 re f
+BT /F2 12 Tf 0.10 0.18 0.32 rg 62.00 565.00 Td (2. Internship Phase Qualification & Alignment) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 528.00 Td (This project fully qualifies for both Phase 1 \(Month 1\) and Phase 2 \(Month 2\) requirements:) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 511.00 Td (• Phase 1 - Core UI & Environment: Game dashboard, canvas world renderer, player status HUD \(HP, Mana,) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 499.00 Td (XP, Gold\), 24-slot inventory, movement controls, NPC interaction, toast notifications, responsive) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 487.00 Td (Tailwind styling.) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 473.00 Td (• Phase 2 - Advanced Gameplay & Systems: Multi-tile collision world, dynamic day/night environmental) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 461.00 Td (lighting \(Day, Sunset, Night\), quest journal with objective trackers, character level progression with) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 449.00 Td (stat growth, merchant shop trading, custom audio synthesizer, oxlint/tsc clean build.) Tj ET
+0.5 w 0.92 0.94 0.97 rg 0.80 0.85 0.90 RG 50.00 431.00 512.00 24.00 re B
+1 w 0.85 0.55 0.05 rg 50.00 431.00 4.00 24.00 re f
+BT /F2 12 Tf 0.10 0.18 0.32 rg 62.00 437.00 Td (3. Technology Stack & Key Libraries) Tj ET
+1 w 0.10 0.15 0.25 rg 50.00 380.00 512.00 20.00 re f
+BT /F2 9 Tf 0.95 0.95 0.95 rg 56.00 386.00 Td (Layer) Tj ET
+BT /F2 9 Tf 0.95 0.95 0.95 rg 166.00 386.00 Td (Technology) Tj ET
+BT /F2 9 Tf 0.95 0.95 0.95 rg 326.00 386.00 Td (Purpose / Role) Tj ET
+0.5 w 0.96 0.97 0.99 rg 0.85 0.88 0.92 RG 50.00 362.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 367.00 Td (Frontend Framework) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 166.00 367.00 Td (React 19 + TypeScript 5) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 326.00 367.00 Td (Component-driven UI with strict type safety) Tj ET
+0.5 w 1.00 1.00 1.00 rg 0.85 0.88 0.92 RG 50.00 344.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 349.00 Td (Build & Dev Server) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 166.00 349.00 Td (Vite 8 + @vitejs/plugin-react) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 326.00 349.00 Td (Lightning-fast HMR and production bundling) Tj ET
+0.5 w 0.96 0.97 0.99 rg 0.85 0.88 0.92 RG 50.00 326.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 331.00 Td (Styling System) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 166.00 331.00 Td (Tailwind CSS v4 + Vanilla CSS) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 326.00 331.00 Td (Glassmorphism aesthetics, glowing rarities, fonts) Tj ET
+0.5 w 1.00 1.00 1.00 rg 0.85 0.88 0.92 RG 50.00 308.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 313.00 Td (Icons & Typography) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 166.00 313.00 Td (Lucide React + Google Fonts) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 326.00 313.00 Td (Cinzel \(RPG text\), Inter \(Body\), Fira Code \(Mono\)) Tj ET
+0.5 w 0.96 0.97 0.99 rg 0.85 0.88 0.92 RG 50.00 290.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 295.00 Td (Animations) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 166.00 295.00 Td (Framer Motion 13) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 326.00 295.00 Td (Fluid modal transitions, hover micro-interactions) Tj ET
+0.5 w 1.00 1.00 1.00 rg 0.85 0.88 0.92 RG 50.00 272.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 277.00 Td (Visual Fanfare) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 166.00 277.00 Td (canvas-confetti) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 326.00 277.00 Td (Particle bursts on level-up and quest completion) Tj ET
+0.5 w 0.96 0.97 0.99 rg 0.85 0.88 0.92 RG 50.00 254.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 259.00 Td (Audio Engine) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 166.00 259.00 Td (Web Audio API \(Custom\)) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 326.00 259.00 Td (Zero-asset procedural sound effect synthesis) Tj ET
+0.5 w 1.00 1.00 1.00 rg 0.85 0.88 0.92 RG 50.00 236.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 241.00 Td (State & Persistence) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 166.00 241.00 Td (Context API + LocalStorage) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 326.00 241.00 Td (Global game state management with auto-save) Tj ET
+0.5 w 0.96 0.97 0.99 rg 0.85 0.88 0.92 RG 50.00 218.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 223.00 Td (Code Quality) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 166.00 223.00 Td (Oxlint + tsc -b) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 326.00 223.00 Td (Fast AST linting and strict type validation) Tj ET
+0.5 w 0.85 0.85 0.85 RG 50 42 m 562 42 l S
+BT /F1 8 Tf 0.4 0.4 0.4 rg 50 30 Td (Aetheria RPG Project Documentation  |  Page 1 of 3) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R >> >> >>
+endobj
+7 0 obj
+<< /Length 4020 >>
+stream
+0.5 w 0.92 0.94 0.97 rg 0.80 0.85 0.90 RG 50.00 736.00 512.00 24.00 re B
+1 w 0.85 0.55 0.05 rg 50.00 736.00 4.00 24.00 re f
+BT /F2 12 Tf 0.10 0.18 0.32 rg 62.00 742.00 Td (4. How the Game Engine Works \(Core Architecture\)) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 705.00 Td (The game is built around a centralized state container \(GameContext\) that coordinates player) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 692.00 Td (attributes, inventory items, active quests, world entities, NPC states, and environmental settings. The) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 679.00 Td (client UI renders in real-time at 60 FPS based on state changes.) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 662.00 Td (• Central Game Context: Manages all state in GameContext.tsx and automatically syncs player progress,) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 650.00 Td (inventory, quest logs, and world entities to browser localStorage under the key 'aetheria_rpg_save_v1'.) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 636.00 Td (• Grid World Canvas: Renders an 18x18 tile map using HTML5/React components. Includes terrain tiles) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 624.00 Td (\(grass, paths, trees, stone roads, mountains, water\) with collision detection preventing out-of-bounds) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 612.00 Td (movement.) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 598.00 Td (• Day / Night Cycle: An automated 45-second cycle timer transitions the realm environment between 'Day',) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 586.00 Td ('Sunset', and 'Night', applying ambient CSS backdrop lighting filters across the viewport.) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 572.00 Td (• Web Audio Synthesizer: AudioService.ts utilizes the browser's native AudioContext to procedurally) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 560.00 Td (generate sound waves for footsteps, potion consumption, gear equipping, quest completions, loot chimes,) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 548.00 Td (and level-ups without relying on heavy external audio assets.) Tj ET
+0.5 w 0.92 0.94 0.97 rg 0.80 0.85 0.90 RG 50.00 530.00 512.00 24.00 re B
+1 w 0.85 0.55 0.05 rg 50.00 530.00 4.00 24.00 re f
+BT /F2 12 Tf 0.10 0.18 0.32 rg 62.00 536.00 Td (5. Character Management & Progression System) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 499.00 Td (Players begin with a base character spec and can inspect or change their specialization at any time via) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 486.00 Td (the Character Profile modal \([C] hotkey\).) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 469.00 Td (• Hero Class Specializations: Warrior \(+Strength/Defense\), Mage \(+Intelligence/Mana\), Rogue) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 457.00 Td (\(+Agility/Crit Hit Rate\).) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 443.00 Td (• Player Attributes: Level, HP \(Health\), Energy \(Mana\), XP, Gold, Status \('Healthy', 'Combat', 'Rested',) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 431.00 Td ('Empowered'\), Strength, Agility, Intelligence, Defense, Crit Chance %.) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 417.00 Td (• Equipped Gear Paperdoll: 6 equipment slots: Weapon, Off-Hand/Shield, Helmet, Chest Armor, Boots, and) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 405.00 Td (Accessory. Stat modifiers \(Attack, Defense, Speed, Crit Rate\) dynamically accumulate onto player stats.) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 391.00 Td (• Level-Up & Progression: Gaining XP from quest objectives and world interaction fills the XP bar.) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 379.00 Td (Reaching 100% XP triggers a Level-Up: +25 Max HP, +15 Max Mana, +3 Strength, +2 Agility, +2 Intelligence,) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 367.00 Td (+2 Defense, full HP/Mana restoration, level-up audio fanfare, and screen particle confetti.) Tj ET
+0.5 w 0.85 0.85 0.85 RG 50 42 m 562 42 l S
+BT /F1 8 Tf 0.4 0.4 0.4 rg 50 30 Td (Aetheria RPG Project Documentation  |  Page 2 of 3) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 8 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R >> >> >>
+endobj
+8 0 obj
+<< /Length 5773 >>
+stream
+0.5 w 0.92 0.94 0.97 rg 0.80 0.85 0.90 RG 50.00 736.00 512.00 24.00 re B
+1 w 0.85 0.55 0.05 rg 50.00 736.00 4.00 24.00 re f
+BT /F2 12 Tf 0.10 0.18 0.32 rg 62.00 742.00 Td (6. Inventory Management & Item System) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 705.00 Td (The Inventory Modal \([I] hotkey\) provides a 24-slot grid system for organizing items across 5 distinct) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 692.00 Td (categories:) Tj ET
+1 w 0.10 0.15 0.25 rg 50.00 655.00 512.00 20.00 re f
+BT /F2 9 Tf 0.95 0.95 0.95 rg 56.00 661.00 Td (Category) Tj ET
+BT /F2 9 Tf 0.95 0.95 0.95 rg 156.00 661.00 Td (Icon) Tj ET
+BT /F2 9 Tf 0.95 0.95 0.95 rg 201.00 661.00 Td (Description & Examples) Tj ET
+0.5 w 0.96 0.97 0.99 rg 0.85 0.88 0.92 RG 50.00 637.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 642.00 Td (Weapons) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 156.00 642.00 Td (⚔️) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 201.00 642.00 Td (Broadswords, Claymores, Daggers - Increases Attack Power & Crit Rate) Tj ET
+0.5 w 1.00 1.00 1.00 rg 0.85 0.88 0.92 RG 50.00 619.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 624.00 Td (Armor) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 156.00 624.00 Td (🛡️) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 201.00 624.00 Td (Plate Body, Iron Helmets, Shields, Boots - Boosts Defense Rating & HP) Tj ET
+0.5 w 0.96 0.97 0.99 rg 0.85 0.88 0.92 RG 50.00 601.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 606.00 Td (Potions) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 156.00 606.00 Td (🧪) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 201.00 606.00 Td (Health Potions, Mana Elixirs - Consumables restoring HP and Energy) Tj ET
+0.5 w 1.00 1.00 1.00 rg 0.85 0.88 0.92 RG 50.00 583.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 588.00 Td (Rewards) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 156.00 588.00 Td (🏆) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 201.00 588.00 Td (Trophies, Victory Seals - Awarded from main quest completions) Tj ET
+0.5 w 0.96 0.97 0.99 rg 0.85 0.88 0.92 RG 50.00 565.00 512.00 18.00 re B
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 56.00 570.00 Td (Collectibles) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 156.00 570.00 Td (💎) Tj ET
+BT /F1 8.5 Tf 0.20 0.20 0.20 rg 201.00 570.00 Td (Gems, Ancient Relics, Rare Ore - High-value trade goods for merchant gold) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 555.00 Td (Items are assigned one of 5 visual Rarity Tiers: Common \(Grey\), Uncommon \(Green\), Rare \(Blue\), Epic) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 542.00 Td (\(Purple\), and Legendary \(Gold Pulsing Border\). Players can inspect item details, equip gear, consume) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 529.00 Td (potions, discard items, or sort inventory automatically by rarity.) Tj ET
+0.5 w 0.92 0.94 0.97 rg 0.80 0.85 0.90 RG 50.00 508.00 512.00 24.00 re B
+1 w 0.85 0.55 0.05 rg 50.00 508.00 4.00 24.00 re f
+BT /F2 12 Tf 0.10 0.18 0.32 rg 62.00 514.00 Td (7. NPC Interactions, Merchant Shop & Quests) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 477.00 Td (• Interactive NPCs: Eldrin the Wise \(Town Elder\), Master Thorin \(Blacksmith & Merchant\), Captain Vance) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 465.00 Td (\(Guard Commander\).) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 451.00 Td (• Merchant Shop: Players can speak with Master Thorin to open the Shop tab and purchase weapons, armor,) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 439.00 Td (and potions using Gold earned from quests and chest looting.) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.15 rg 60.00 425.00 Td (• Quest Log Journal \([Q]\): Track active quests \(e.g., 'The Awakening', 'Combat Training'\), view objective) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 413.00 Td (counters \(e.g., Chests opened 0/1, Herbs collected 0/3\), and claim XP, Gold, and Item rewards upon) Tj ET
+BT /F1 9 Tf 0.15 0.15 0.15 rg 70.00 401.00 Td (completion.) Tj ET
+0.5 w 0.92 0.94 0.97 rg 0.80 0.85 0.90 RG 50.00 383.00 512.00 24.00 re B
+1 w 0.85 0.55 0.05 rg 50.00 383.00 4.00 24.00 re f
+BT /F2 12 Tf 0.10 0.18 0.32 rg 62.00 389.00 Td (8. Input Controls & Hotkey Mapping) Tj ET
+1 w 0.05 0.07 0.11 rg 0.20 0.30 0.40 RG 50.00 288.00 512.00 64.00 re B
+BT /F4 8.5 Tf 0.40 0.85 0.50 rg 62.00 336.00 Td (Movement Keys : [W] Up | [A] Left | [S] Down | [D] Right | Arrow Keys) Tj ET
+BT /F4 8.5 Tf 0.40 0.85 0.50 rg 62.00 323.00 Td (Touch D-Pad   : On-screen Virtual D-Pad for mobile & tablet support) Tj ET
+BT /F4 8.5 Tf 0.40 0.85 0.50 rg 62.00 310.00 Td (Hotkeys       : [I] Inventory | [C] Character Profile | [Q] Quest Log | [Esc] Close Modal) Tj ET
+BT /F4 8.5 Tf 0.40 0.85 0.50 rg 62.00 297.00 Td (Quick Potions : [1] Consume Health Potion | [2] Consume Mana Potion) Tj ET
+0.5 w 0.92 0.94 0.97 rg 0.80 0.85 0.90 RG 50.00 270.00 512.00 24.00 re B
+1 w 0.85 0.55 0.05 rg 50.00 270.00 4.00 24.00 re f
+BT /F2 12 Tf 0.10 0.18 0.32 rg 62.00 276.00 Td (9. Project Build & Live Deployment) Tj ET
+BT /F1 9.5 Tf 0.20 0.20 0.20 rg 50.00 239.00 Td (The codebase is fully optimized for production deployment on platforms such as Vercel or Netlify.) Tj ET
+1 w 0.05 0.07 0.11 rg 0.20 0.30 0.40 RG 50.00 158.00 512.00 64.00 re B
+BT /F4 8.5 Tf 0.40 0.85 0.50 rg 62.00 206.00 Td (npm run dev     # Starts Vite development server at http://localhost:5173) Tj ET
+BT /F4 8.5 Tf 0.40 0.85 0.50 rg 62.00 193.00 Td (npm run build   # Executes tsc -b type checking & Vite production bundle) Tj ET
+BT /F4 8.5 Tf 0.40 0.85 0.50 rg 62.00 180.00 Td (npm run lint    # Runs Oxlint code quality verification) Tj ET
+BT /F4 8.5 Tf 0.40 0.85 0.50 rg 62.00 167.00 Td (npm run preview # Previews the output dist/ static bundle locally) Tj ET
+0.5 w 0.85 0.85 0.85 RG 50 42 m 562 42 l S
+BT /F1 8 Tf 0.4 0.4 0.4 rg 50 30 Td (Aetheria RPG Project Documentation  |  Page 3 of 3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
+12 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000286 00000 n 
+0000006602 00000 n 
+0000006761 00000 n 
+0000010833 00000 n 
+0000010992 00000 n 
+0000016817 00000 n 
+0000016887 00000 n 
+0000016963 00000 n 
+0000017042 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+17111
+%%EOF
